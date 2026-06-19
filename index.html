@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>xX_Слёзы_Сентября_Xx - MySpace</title>
+    <style>
+        /* Основные стили: черно-розовый мрак 2007-го */
+        body {
+            background-color: #000000;
+            background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+            color: #cccccc;
+            font-family: "Comic Sans MS", "Courier New", Courier, monospace;
+            font-size: 12px;
+            margin: 0;
+            padding: 20px;
+            cursor: crosshair; /* Прицел вместо курсора */
+        }
+
+        a {
+            color: #ff00cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #ffffff;
+            background-color: #ff00cc;
+            text-decoration: dashed underline;
+            cursor: help;
+        }
+
+        /* Главный контейнер профиля */
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #111111;
+            border: 3px dashed #ff00cc;
+            padding: 15px;
+        }
+
+        /* Заголовок с никнеймом */
+        .header {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff00cc;
+            text-shadow: 2px 2px #550000;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .left-column {
+            width: 320px;
+            float: left;
+        }
+
+        .right-column {
+            width: 450px;
+            float: right;
+        }
+
+        /* Блоки с контентом */
+        .box {
+            background-color: #050505;
+            border: 1px solid #ff00cc;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+
+        .box h3 {
+            background-color: #ff00cc;
+            color: #000000;
+            margin: -10px -10px 10px -10px;
+            padding: 5px;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        /* Фото профиля */
+        .profile-pic {
+            width: 250px;
+            height: 300px;
+            background-color: #333;
+            border: 4px solid #111;
+            margin: 0 auto 10px auto;
+            text-align: center;
+            line-height: 300px;
+            color: #777;
+            background-image: url('https://placekitten.com/250/300'); /* Заглушка, представь тут фото с челкой на пол-лица */
+            filter: grayscale(100%) contrast(130%);
+            display: block;
+        }
+
+        .status {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+
+        /* Блок контактов (сообщения, друзья) */
+        .contact-table {
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        .contact-table td {
+            border: 1px solid #333;
+            padding: 5px;
+        }
+
+        /* Фейковый флеш-плеер */
+        .music-player {
+            background: #222;
+            border: 1px solid #ff00cc;
+            padding: 8px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 11px;
+            color: #fff;
+        }
+
+        .music-player progress {
+            width: 100%;
+            height: 10px;
+            accent-color: #ff00cc;
+        }
+
+        /* Топ-8 друзей */
+        .top8 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            text-align: center;
+        }
+
+        .friend img {
+            width: 80px;
+            height: 80px;
+            border: 2px solid #333;
+            filter: grayscale(80%);
+        }
+
+        .friend img:hover {
+            border: 2px solid #ff00cc;
+            filter: grayscale(0%);
+        }
+
+        /* Комментарии */
+        .comment-item {
+            background-color: #1a000d;
+            border: 1px dashed #ff00cc;
+            padding: 10px;
+            margin-bottom: 10px;
+            clear: both;
+        }
+
+        .comment-pic {
+            float: left;
+            width: 80px;
+            margin-right: 10px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        marquee {
+            font-size: 14px;
+            color: #ff00cc;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            background-color: #ff00cc;
+            color: #000;
+        }
+        
+        .lyrics {
+            font-style: italic;
+            color: #ff99ff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">~*~ xX_Broken_Black_Heart_Xx ~*~</div>
+    
+    <marquee scrollamount="4">💔 Никто не понимает мою боль... Сентябрь горит, убийца плачет... 💔 Пожалуйста, не пишите мне, я хочу побыть один(на)... 🥀</marquee>
+
+    <div class="left-column">
+        <!-- Блок профиля -->
+        <div class="box">
+            <h3>Меня зовут... Боль</h3>
+            <img class="profile-pic" src="https://placehold.co/250x300/000000/ff00cc?text=Rawr+xD" alt="Мое фото">
+            <div class="status">
+                <strong>Настроение:</strong> депрессия 🌧️<br>
+                <strong>Звучит:</strong> <span class="highlight">Stigmata - Сентябрь</span>
+            </div>
+            <table class="contact-table">
+                <tr>
+                    <td><a href="#">✉️ Сообщение</a></td>
+                    <td><a href="#">➕ В друзья</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">📝 Коммент</a></td>
+                    <td><a href="#">🚫 В блок</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Плейлист -->
+        <div class="box">
+            <h3>~ Моя музыка ~</h3>
+            <div class="music-player">
+                <strong>Amatory - Черно-Белые Дни</strong><br>
+                01:14 <progress value="25" max="100"></progress> 03:45<br>
+                ⏪ ⏸️ ⏹️ ⏩ <br>
+                <a href="#">Скачать</a> | <a href="#">Текст</a>
+            </div>
+        </div>
+
+        <!-- Интересы -->
+        <div class="box">
+            <h3>Мои интересы</h3>
+            <p><strong>Музыка:</strong> My Chemical Romance, Tokio Hotel, 30 Seconds to Mars, Amatory, Психея, Origami, Jane Air... <span class="highlight">ЭМО-КОР, ПОСТ-ХАРДКОР, СКРИМО!!!</span></p>
+            <p><strong>Фильмы:</strong> Донни Дарко, Ворон, Реквием по мечте, Труп Невесты.</p>
+            <p><strong>Книги:</strong> Читаю только свои стихи о смерти и дневник, исписанный слезами.</p>
+        </div>
+    </div>
+
+    <div class="right-column">
+        <!-- Обо мне -->
+        <div class="box">
+            <h3>Обо мне</h3>
+            <p>Привет. Если ты зашел сюда, значит тебе тоже одиноко.</p>
+            <p>Я ненавижу этот мир. Черный — цвет моей души, а розовый — цвет крови моего разбитого сердца. Я люблю сидеть на подоконнике, пить крепкий кофе, курить и смотреть на дождь.</p>
+            <p class="lyrics">
+                "I'm not okay...<br>
+                I'm not okay...<br>
+                I'm not o-fucking-kay!"<br>
+                (c) MCR
+            </p>
+            <p>Не добавляйся ко мне, если ты позерок или гламурная киса. Rawr XD.</p>
+        </div>
+
+        <!-- Топ 8 Друзей -->
+        <div class="box">
+            <h3>Мои лучшие друзья (Топ 8)</h3>
+            <div class="top8">
+                <div class="friend">
+                    <img src="https://placehold.co/80x80/222222/ffffff?text=Tom" alt="Tom">
+                    <br><a href="#">Tom</a>
+                </div>
+                <div class="friend">
+                    <img src="https://placehold.co/80x80/222222/ff00cc?text=xX_Emo_Xx" alt="Friend 2">
+                    <br><a href="#">_Слёзы_</a>
+                </div>
+                <div class="friend">
+                    <img src="https://placehold.co/80x80/222222/ff00cc?text=Death" alt="Friend 3">
+                    <br><a href="#">Death_Kisses</a>
+                </div>
+                <div class="friend">
+                    <img src="https://placehold.co/80x80/222222/ff00cc?text=Sk8r" alt="Friend 4">
+                    <br><a href="#">Sk8er_Boi</a>
+                </div>
+                <div class="friend">
+                    <img src="https://placehold.co/80x80/222222/ff00cc?text=666" alt="Friend 5">
+                    <br><a href="#">Dark_Angel</a>
+                </div>
+                <div class="friend">
+                    <img src="https://placehold.co/80x80/222222/ff00cc?text=Rawr" alt="Friend 6">
+                    <br><a href="#">Jane_Air_Fan</a>
+                </div>
+                <div class="friend">
+                    <img src="https://placehold.co/80x80/222222/ff00cc?text=Alone" alt="Friend 7">
+                    <br><a href="#">x_Lonely_x</a>
+                </div>
+                <div class="friend">
+                    <img src="https://placehold.co/80x80/222222/ff00cc?text=Rain" alt="Friend 8">
+                    <br><a href="#">Raindrops</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Комментарии / Стена -->
+        <div class="box">
+            <h3>Комментарии друзей</h3>
+            
+            <div class="comment-item">
+                <img class="comment-pic" src="https://placehold.co/80x80/222222/ff00cc?text=Friend" alt="Pic">
+                <div>
+                    <strong><a href="#">x_Lonely_x</a></strong> пишет:<br>
+                    <small>1 Сентября 2007 в 14:28</small><br><br>
+                    Чмаффки, зайка!!! =*** Пойдем сегодня в скейт-парк пить блейзер? Я принесу значки!
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="comment-item">
+                <img class="comment-pic" src="https://placehold.co/80x80/222222/ff00cc?text=Friend2" alt="Pic">
+                <div>
+                    <strong><a href="#">Dark_Angel</a></strong> пишет:<br>
+                    <small>31 Августа 2007 в 23:15</small><br><br>
+                    Плачу вместе с тобой... 😭🖤 Жизнь так жестока...
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="clear"></div>
+</div>
+
+</body>
+</html>
